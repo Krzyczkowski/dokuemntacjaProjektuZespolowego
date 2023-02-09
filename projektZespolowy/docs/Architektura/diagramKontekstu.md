@@ -6,4 +6,4 @@ sidebar_position: 3
 
 Rozpatrując dokonane założenia i kontekst systemu Miniaturowej tablicy informacji pasażerskiej, można przedstawić go na poniższym diagramie kontekstu.
 
-![Alt text](diagramKontekstu.png "a title")
+![diagramKontekstu](diagramKontekstu.png "diagramKontekstu")

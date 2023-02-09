@@ -11,3 +11,6 @@ Uszczegóławiając wizję techniczną, system można podzielić na następując
 
 ## Frontend
 ![diagramFrontend](frontend.png "diagramFrontend")
+
+### Baza Danych
+![diagramBazy](bazaDanych.png "diagramBazy")
