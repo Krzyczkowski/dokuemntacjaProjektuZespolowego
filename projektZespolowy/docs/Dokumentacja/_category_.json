@@ -1,6 +1,6 @@
 {
-  "label": "Start - zespol 2",
-  "position": 2,
+  "label": "Dokumentacja API",
+  "position": 0,
   "link": {
     "type": "generated-index",
     "description": "strona startowa dokumentacji Zespolu nr2"

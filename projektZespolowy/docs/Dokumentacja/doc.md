@@ -2,20 +2,26 @@
 sidebar_position: 1
 ---
 
-# Witaj na stronie zespolu nr2
+# Rejestracja użytkownika
 
-Tutaj zamieścimy dokumentację naszego projektu.
+Utworzenie nowego użytkownika 
 
-## Przykładowy kod:
+## Endpoint
+> **GET**: `/api/auth/signup`
 
-Plik `test.java`:
+**Body : `JSON`**
 
-
-```jsx title="test.java"
-class Test{
-	public static void main(String args[]){
-		System.out.println("Java rzadzi!");
-	}
+Przykładowa zawartość body:
+```
+{
+	"username": "imie",
+	"email": "poczta@poczta.pl",
+	"password": "haslo", 
+	"roles": ["user"] 
 }
 ```
+Wartości zwracane:
+
+`message` - informacja z rezultatem na request
+
 
