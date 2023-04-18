@@ -86,15 +86,6 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Documentation',
-                to: '/docs/category/start---zespol-2',
-              },
-            ],
-          },
-          {
             title: 'Community',
             items: [
               {
