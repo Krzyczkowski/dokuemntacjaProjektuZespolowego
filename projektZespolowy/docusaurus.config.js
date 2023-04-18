@@ -86,6 +86,15 @@ const config = {
         style: 'dark',
         links: [
           {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Documentation',
+                to: '/docs/category/dokumentacja-api',
+              },
+            ],
+          },
+          {
             title: 'Community',
             items: [
               {
