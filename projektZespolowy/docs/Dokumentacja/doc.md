@@ -4,10 +4,10 @@ sidebar_position: 1
 
 # Rejestracja użytkownika
 
-Utworzenie nowego użytkownika 
+Utworzenie nowego użytkownika
 
 ## Endpoint
-> **GET**: `/api/auth/signup`
+> **POST**: `/api/auth/signup`
 
 **Body : `JSON`**
 
