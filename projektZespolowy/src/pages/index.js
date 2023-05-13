@@ -21,7 +21,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button "
-            to="/docs/category/dokumentacja-api">
+            to="/docs/category/PKP">
               <div className={styles.button}>
             Sprawdź dokumentację! 
             </div>

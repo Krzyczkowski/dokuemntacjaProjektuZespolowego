@@ -35,14 +35,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/rrnax/Miniaturowa_tablica_informacji_pasazerskiej',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/rrnax/Miniaturowa_tablica_informacji_pasazerskiej',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,10 +64,24 @@ const config = {
         items: [
           {
             type: 'doc',
+            docId: '/category/pkp',
+            position: 'left',
+            label: 'PKP',
+          },
+          {
+            type: 'doc',
+            docId: '/category/ztm',
+            position: 'left',
+            label: 'ZTM',
+          },
+          {
+            type: 'doc',
             docId: 'Użytkownicy/doc',
             position: 'left',
             label: 'Użytkownicy',
           },
+          
+          
           {
             type: 'doc',
             docId: '/category/architektura',
