@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+
 
 import styles from './index.module.css';
 
@@ -12,15 +12,22 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">Projekt Miniaturowej Tablicy Informacji Pasażerskiej</h1>
-        <p className="hero__subtitle">Dokumentacja Zespołu nr. 2</p>
+        <h1 >Dokumentacja</h1>
+        <p className="hero__subtitle">Miniaturowej Tablicy Informacji Pasażerskiej</p>
+        
+        <img className='obrazek' src="/img/logo.png" width="200"></img>
+        <br></br>
+        <p className="hero__subtitle"> </p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className="button "
             to="/docs/category/dokumentacja-api">
-            Sprawdź dokumentację!
+              <div className={styles.button}>
+            Sprawdź dokumentację! 
+            </div>
           </Link>
         </div>
+        
       </div>
     </header>
   );
@@ -33,9 +40,6 @@ export default function Home() {
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
     </Layout>
   );
 }

@@ -1,0 +1,8 @@
+{
+  "label": "ZTM",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Endpointy dla przystanków ZTM"
+  }
+}

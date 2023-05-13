@@ -10,18 +10,16 @@ const config = {
   tagline: 'Dokumentacja',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'DWR', // Usually your GitHub org/user name.
+  projectName: 'MTIP DOCS', // Usually your repo name.
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -53,10 +51,11 @@ const config = {
     ],
   ],
 
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      navbar: {
+          navbar: {
         title: 'Strona główna',
         logo: {
           alt: '',
@@ -65,9 +64,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'Dokumentacja/doc',
+            docId: 'Użytkownicy/doc',
             position: 'left',
-            label: 'Dokumentacja',
+            label: 'Użytkownicy',
           },
           {
             type: 'doc',
@@ -76,7 +75,7 @@ const config = {
             label: 'Architektura',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/rrnax/Miniaturowa_tablica_informacji_pasazerskiej',
             label: 'GitHub',
             position: 'right',
           },
@@ -115,12 +114,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/rrnax/Miniaturowa_tablica_informacji_pasazerskiej',
               },
             ],
           },

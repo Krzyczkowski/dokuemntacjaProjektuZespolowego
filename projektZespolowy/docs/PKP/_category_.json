@@ -1,0 +1,8 @@
+{
+  "label": "PKP",
+  "position": 0,
+  "link": {
+    "type": "generated-index",
+    "description": "Endpointy dla danych PKP"
+  }
+}
