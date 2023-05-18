@@ -9,17 +9,18 @@ Endpointy zwracający wszystkie przyjazdy dla danego przystanku
 ## Endpoint czasów przyjazdów
  Metoda HTTP/Ścieżka: 
 > **GET**: `/api/ztm/{nazwa_miasta}/info/{displayCode}`
+>**Wymagany nagłówek autoryzacji z tokenem JWT**
 
 Wartości przyjmowane:
 
 nazwa_miasta - nazwa miasta w którego przystanki chcemy pobrać
 displayCode - id zespołu przystanku
 
+
+
+## Wartości zwracane:
+
 **Body : `JSON`**
-
-ilość wartości zwracanych dla ZTM Warszawa i Gdańsk różnią się od siebie
-
-Wartości zwracane:
 <p>	Warszawa:</p>
 
 ```json

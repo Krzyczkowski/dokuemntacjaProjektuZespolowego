@@ -9,18 +9,26 @@ sidebar_position: 1
  Metoda HTTP/Ścieżka: 
 > **GET**: `/api/pkp/stops`
 
+>**Wymagany nagłówek autoryzacji z tokenem JWT**
+
 nazwa_miasta - nazwa miasta w którego przystanki chcemy pobrać
 
-**Body : `JSON`**
 
-Wartości zwracane:
+## Wartości zwracane:
+
+**Body : `JSON`**
 ```json
-[{ "stop_id": "12369", "stop_name": "Pisz", "stop_lat": "53.63182419077", "stop_lon": "21.79292007566", "stop_IBNR": "436"}, (...)]
+[{ "stop_id": "12369",
+   "name": "Pisz",
+   "stop_lat": "53.63182419077",
+   "stop_lon": "21.79292007566",
+   "stop_IBNR": "436"},
+     (...)]
 ```
 Opis wartości:
 ```
 stop_id - id stacji 
-stop_name - nazwa stacji
+name - nazwa stacji
 stop_lat - szerokość geograficzna stacji
 stop_lon - wysokośc geograficzna stacji
 ```

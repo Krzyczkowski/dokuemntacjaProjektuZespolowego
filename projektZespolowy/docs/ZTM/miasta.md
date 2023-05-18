@@ -8,18 +8,16 @@ sidebar_position: 1
 
  Metoda HTTP/Ścieżka: 
 > **GET**: `/api/ztm/cities`
-
-nazwa_miasta - nazwa miasta w którego przystanki chcemy pobrać
+>**Wymagany nagłówek autoryzacji z tokenem JWT**
+## Wartości zwracane:
 
 **Body : `JSON`**
-
-Wartości zwracane:
 ```json
 [ "warszawa", "gdansk" ]
 ```
 Opis wartości:
 ```
-Lista nazw miast
+Lista nazw miast z ZTM które obsługujemy.
 ```
 Kody błędów:
 ```

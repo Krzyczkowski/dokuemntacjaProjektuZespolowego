@@ -6,11 +6,12 @@ sidebar_position: 1
 
 Wymagane dane i sposób rejestracji użytkownika do serwisu.
 
-## Endpoint
+# Endpoint
 
  Metoda HTTP/Ścieżka: 
-> **POST**: `/api/auth/signup`
+> **POST**: `/api/auth/signup`  
 
+ **Wymagany nagłówek autoryzacji z tokenem JWT** 
 **Body : `JSON`**
 
 Parametry przykładowego zapytania:

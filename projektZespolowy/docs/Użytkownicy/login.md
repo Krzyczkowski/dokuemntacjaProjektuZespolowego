@@ -11,7 +11,8 @@ Wymagane dane do zalogowania się użytkownika do serwisu.
  >**POST**: `/api/auth/signin`
 
 **Body : `JSON`**
-
+ **Wymagany nagłówek autoryzacji z tokenem JWT** 
+ 
 Parametry przykładowego zapytania:
 ```json
 {
@@ -19,13 +20,13 @@ Parametry przykładowego zapytania:
 	"password": "haslo", 
 }
 ```
-Wartości zwracane:
+
+## Token JWT
 ```
-id - id użytkownika
-username - nazwa użytkownika
-email - email użytkownika
-roles - uprawnienia użytkownika
+ w Nagłówku Athorization zwracany jest token użytkownika,
+ token JWT, który jest wymagany do każdego zapytania API
 ```
+
 
 Kody błędów:
 ```
