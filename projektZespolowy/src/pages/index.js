@@ -12,10 +12,8 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 >Dokumentacja</h1>
-        <p className="hero__subtitle">Miniaturowej Tablicy Informacji Pasażerskiej</p>
-        
-        <img className='obrazek' src="/img/logo.png" width="200"></img>
+        <h1 >Dokumentacja projektu MTIP</h1>
+        <img className='obrazek' src="/img/m_tip_logo.png" width="300"></img>
         <br></br>
         <p className="hero__subtitle"> </p>
         <div className={styles.buttons}>
@@ -23,7 +21,7 @@ function HomepageHeader() {
             className="button "
             to="/docs/category/PKP">
               <div className={styles.button}>
-            Sprawdź dokumentację! 
+            Zacznij korzystać!
             </div>
           </Link>
         </div>
