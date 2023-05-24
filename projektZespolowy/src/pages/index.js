@@ -12,7 +12,8 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 >Dokumentacja projektu MTIP</h1>
+        <h1 >Dokumentacja projektu</h1>
+        <h1> Miniaturowej tablicy informacji pasażerskiej</h1>
         <img className='obrazek' src="/img/m_tip_logo.png" width="300"></img>
         <br></br>
         <p className="hero__subtitle"> </p>
