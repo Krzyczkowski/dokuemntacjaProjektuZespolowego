@@ -12,7 +12,8 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 >Dokumentacja projektu zespołu nr. 2</h1>
+        <h1 >Dokumentacja </h1>
+          <h1>zespołu nr. 2</h1>
       
         <img className='obrazek' src="/img/m_tip_logo.png" width="300"></img>
         <br></br>
