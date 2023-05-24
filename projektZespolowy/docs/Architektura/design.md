@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# Design frontend'u
+# Koncepcje design'u
 
 
 ![designFrontendu](design.png "designFrontendu")

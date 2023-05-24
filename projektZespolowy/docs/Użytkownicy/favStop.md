@@ -40,12 +40,6 @@ Kody błędów:
 
 
 
-
-
-
-
-
-
 ## Pobieranie wszystkich ulubionych przystanków  
  **Wymagany nagłówek autoryzacji z tokenem JWT**   
  Metoda HTTP/Ścieżka: 
@@ -55,7 +49,12 @@ Kody błędów:
 
 Wartości zwracane:
 ```
-(todo) Obiekty  
+[{
+    "cityName": "Bydgoszcz",
+    "stopName": "jagielonow",
+    "stopIds": ["123","321"], 
+    "status": false 
+}...]
 ```
 
 Kody błędów:
