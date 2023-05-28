@@ -48,7 +48,7 @@ Kody błędów:
 
 
 Wartości zwracane:
-```
+```json
 [{
     "cityName": "Bydgoszcz",
     "stopName": "jagielonow",
