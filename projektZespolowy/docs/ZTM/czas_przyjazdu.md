@@ -7,9 +7,10 @@ sidebar_position: 2
 Endpointy zwracający wszystkie przyjazdy dla danego przystanku
 
 ## Endpoint czasów przyjazdów
- Metoda HTTP/Ścieżka: 
-> **GET**: `/api/ztm/{nazwa_miasta}/info/{displayCode}`
->**Wymagany nagłówek autoryzacji z tokenem JWT**
+ Metoda HTTP/Ścieżka:  
+> **GET**: `/api/ztm/{nazwa_miasta}/info/{displayCode}`  
+  
+ **Wymagany nagłówek autoryzacji z tokenem JWT** 
 
 Wartości przyjmowane:
 
@@ -18,7 +19,7 @@ displayCode - id zespołu przystanku
 
 
 
-## Wartości zwracane:
+Wartości zwracane:
 
 **Body : `JSON`**
 <p>	Warszawa:</p>
