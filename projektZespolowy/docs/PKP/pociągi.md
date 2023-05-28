@@ -11,7 +11,7 @@ sidebar_position: 1
  Metoda HTTP/Ścieżka: 
 > **GET**: `/api/pkp/trains/getBest`
 
-## Wartości zwracane:
+ Wartości zwracane:
 
 **Body : `JSON`**
 ```json
@@ -59,7 +59,7 @@ Kody błędów:
  Metoda HTTP/Ścieżka: 
 > **GET**: `/api/pkp/trains/info`
 
-## Wartości zwracane:
+ Wartości zwracane:
 ```json
 { 
      "averageSpeed": "23.22261724806004",
