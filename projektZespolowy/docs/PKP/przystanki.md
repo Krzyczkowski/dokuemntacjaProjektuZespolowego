@@ -4,17 +4,14 @@ sidebar_position: 1
 
 # Stacje
 
-## Endpoint zwracający wszystkie stacje PKP w Polsce
+## Endpoint zwracający wszystkie stacje PKP w Polsce  
+
+ **Wymagany nagłówek autoryzacji z tokenem JWT**  
 
  Metoda HTTP/Ścieżka: 
 > **GET**: `/api/pkp/stops`
 
->**Wymagany nagłówek autoryzacji z tokenem JWT**
-
-nazwa_miasta - nazwa miasta w którego przystanki chcemy pobrać
-
-
-## Wartości zwracane:
+ Wartości zwracane:
 
 **Body : `JSON`**
 ```json

@@ -52,12 +52,15 @@ Kody błędów:
 
  Metoda HTTP/Ścieżka: 
 > **GET**: `/api/ztm/displays/{nazwa_miasta}`
-
+>**Wymagany nagłówek autoryzacji z tokenem JWT**
 nazwa_miasta - nazwa miasta w którego przystanki chcemy pobrać
 
-**Body : `JSON`**
 
-Wartości zwracane:
+
+
+## Wartości zwracane:
+
+**Body : `JSON`**
 ```json
  { 
 	"Budapesztańska": [ "512", "513", "514", "515" ],

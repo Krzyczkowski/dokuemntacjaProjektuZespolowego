@@ -9,7 +9,7 @@ sidebar_position: 1
  Metoda HTTP/Ścieżka: 
 > **GET**: `/api/ztm/cities`
 >**Wymagany nagłówek autoryzacji z tokenem JWT**
-## Wartości zwracane:
+ Wartości zwracane:
 
 **Body : `JSON`**
 ```json
